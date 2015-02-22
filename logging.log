@@ -1,0 +1,254 @@
+2015-02-22 10:25:40 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:25:40 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:25:40 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:25:41 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-22 10:25:42 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE CustomGenerator  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:25:42 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:25:42 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE CustomGenerator  OWNER TO jive
+2015-02-22 10:25:42 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.CUSTOMGENERATOR
+2015-02-22 10:25:42 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE ut_utilisateur_sequence  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:25:42 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:25:42 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE ut_utilisateur_sequence  OWNER TO jive
+2015-02-22 10:25:42 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:25:42 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom2','prenom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:25:42 ERROR SchemaExport:457 - user lacks privilege or object not found: NEXTVAL
+2015-02-22 10:25:42 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom22','prenéom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:25:42 ERROR SchemaExport:457 - user lacks privilege or object not found: NEXTVAL
+2015-02-22 10:25:54 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:25:54 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:25:54 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:25:54 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-22 10:25:55 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE CustomGenerator  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:25:55 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:25:55 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE CustomGenerator  OWNER TO jive
+2015-02-22 10:25:55 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.CUSTOMGENERATOR
+2015-02-22 10:25:55 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE ut_utilisateur_sequence  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:25:55 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:25:55 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE ut_utilisateur_sequence  OWNER TO jive
+2015-02-22 10:25:55 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:25:55 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom2','prenom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:25:55 ERROR SchemaExport:457 - user lacks privilege or object not found: NEXTVAL
+2015-02-22 10:25:55 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom22','prenéom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:25:55 ERROR SchemaExport:457 - user lacks privilege or object not found: NEXTVAL
+2015-02-22 10:26:26 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:26:26 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:26:26 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:26:27 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-22 10:26:28 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE CustomGenerator  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:26:28 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:26:28 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE CustomGenerator  OWNER TO jive
+2015-02-22 10:26:28 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.CUSTOMGENERATOR
+2015-02-22 10:26:28 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE ut_utilisateur_sequence  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:26:28 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:26:28 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE ut_utilisateur_sequence  OWNER TO jive
+2015-02-22 10:26:28 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:26:28 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom2','prenom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:26:28 ERROR SchemaExport:457 - user lacks privilege or object not found: NEXTVAL
+2015-02-22 10:26:28 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom22','prenéom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:26:28 ERROR SchemaExport:457 - user lacks privilege or object not found: NEXTVAL
+2015-02-22 10:26:37 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:26:37 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:26:37 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:26:37 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-22 10:26:38 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE CustomGenerator  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:26:38 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:26:38 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE CustomGenerator  OWNER TO jive
+2015-02-22 10:26:38 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.CUSTOMGENERATOR
+2015-02-22 10:26:38 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE ut_utilisateur_sequence  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:26:38 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:26:38 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE ut_utilisateur_sequence  OWNER TO jive
+2015-02-22 10:26:38 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:26:38 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom2','prenom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:26:38 ERROR SchemaExport:457 - user lacks privilege or object not found: NEXTVAL
+2015-02-22 10:26:38 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom22','prenéom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:26:38 ERROR SchemaExport:457 - user lacks privilege or object not found: NEXTVAL
+2015-02-22 10:33:52 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:33:52 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:33:52 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:33:53 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-22 10:33:53 ERROR SchemaExport:456 - HHH000388: Unsuccessful: SET DATABASE SQL SYNTAX PGS
+2015-02-22 10:33:53 ERROR SchemaExport:457 - unexpected end of statement
+2015-02-22 10:33:53 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE CustomGenerator  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:33:53 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:33:53 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE CustomGenerator  OWNER TO jive
+2015-02-22 10:33:53 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.CUSTOMGENERATOR
+2015-02-22 10:33:53 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE ut_utilisateur_sequence  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:33:53 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:33:53 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE ut_utilisateur_sequence  OWNER TO jive
+2015-02-22 10:33:53 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:33:53 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom2','prenom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:33:53 ERROR SchemaExport:457 - user lacks privilege or object not found: NEXTVAL
+2015-02-22 10:33:53 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom22','prenéom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:33:53 ERROR SchemaExport:457 - user lacks privilege or object not found: NEXTVAL
+2015-02-22 10:37:40 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:37:40 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:37:40 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:37:40 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-22 10:37:41 ERROR SchemaExport:456 - HHH000388: Unsuccessful: SET DATABASE SQL SYNTAX PGS
+2015-02-22 10:37:41 ERROR SchemaExport:457 - unexpected end of statement
+2015-02-22 10:37:41 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE CustomGenerator  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:37:41 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:37:41 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE CustomGenerator  OWNER TO jive
+2015-02-22 10:37:41 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.CUSTOMGENERATOR
+2015-02-22 10:37:41 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE ut_utilisateur_sequence  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:37:41 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:37:41 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE ut_utilisateur_sequence  OWNER TO jive
+2015-02-22 10:37:41 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:37:41 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom2','prenom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:37:41 ERROR SchemaExport:457 - user lacks privilege or object not found: NEXTVAL
+2015-02-22 10:37:41 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom22','prenéom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:37:41 ERROR SchemaExport:457 - user lacks privilege or object not found: NEXTVAL
+2015-02-22 10:38:14 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:38:14 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:38:14 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:38:14 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-22 10:38:15 ERROR SchemaExport:456 - HHH000388: Unsuccessful: SET DATABASE SQL SYNTAX PGS
+2015-02-22 10:38:15 ERROR SchemaExport:457 - unexpected end of statement
+2015-02-22 10:38:15 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE CustomGenerator  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:38:15 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:38:15 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE CustomGenerator  OWNER TO jive
+2015-02-22 10:38:15 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.CUSTOMGENERATOR
+2015-02-22 10:38:15 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE ut_utilisateur_sequence  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:38:15 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:38:15 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE ut_utilisateur_sequence  OWNER TO jive
+2015-02-22 10:38:15 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:38:15 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom2','prenom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:38:15 ERROR SchemaExport:457 - user lacks privilege or object not found: NEXTVAL
+2015-02-22 10:38:15 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom22','prenéom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:38:15 ERROR SchemaExport:457 - user lacks privilege or object not found: NEXTVAL
+2015-02-22 10:39:12 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:39:12 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:39:12 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:39:12 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-22 10:39:13 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE CustomGenerator  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:39:13 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:39:13 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE CustomGenerator  OWNER TO jive
+2015-02-22 10:39:13 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.CUSTOMGENERATOR
+2015-02-22 10:39:13 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE ut_utilisateur_sequence  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:39:13 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:39:13 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE ut_utilisateur_sequence  OWNER TO jive
+2015-02-22 10:39:13 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:39:13 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom2','prenom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:39:13 ERROR SchemaExport:457 - user lacks privilege or object not found: UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:39:13 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom22','prenéom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:39:13 ERROR SchemaExport:457 - user lacks privilege or object not found: UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:40:02 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:40:02 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:40:02 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:40:02 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-22 10:40:03 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE CustomGenerator  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:40:03 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:40:03 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE CustomGenerator  OWNER TO jive
+2015-02-22 10:40:03 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.CUSTOMGENERATOR
+2015-02-22 10:40:03 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE ut_utilisateur_sequence  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:40:03 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:40:03 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE ut_utilisateur_sequence  OWNER TO jive
+2015-02-22 10:40:03 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:40:03 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom2','prenom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:40:03 ERROR SchemaExport:457 - user lacks privilege or object not found: UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:40:03 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom22','prenéom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:40:03 ERROR SchemaExport:457 - user lacks privilege or object not found: UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:42:06 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:42:06 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:42:06 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:42:06 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-22 10:42:07 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE CustomGenerator  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:42:07 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:42:07 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE CustomGenerator  OWNER TO jive
+2015-02-22 10:42:07 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.CUSTOMGENERATOR
+2015-02-22 10:42:07 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE ut_utilisateur_sequence  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:42:07 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:42:07 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE ut_utilisateur_sequence  OWNER TO jive
+2015-02-22 10:42:07 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:42:07 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom2','prenom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:42:07 ERROR SchemaExport:457 - user lacks privilege or object not found: NEXTVAL
+2015-02-22 10:42:07 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom22','prenéom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:42:07 ERROR SchemaExport:457 - user lacks privilege or object not found: NEXTVAL
+2015-02-22 10:44:36 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:44:36 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:44:36 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:44:38 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-22 10:44:40 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE CustomGenerator  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:44:40 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:44:40 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE CustomGenerator  OWNER TO jive
+2015-02-22 10:44:40 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.CUSTOMGENERATOR
+2015-02-22 10:44:40 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE ut_utilisateur_sequence  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:44:40 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:44:40 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE ut_utilisateur_sequence  OWNER TO jive
+2015-02-22 10:44:40 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:44:40 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom2','prenom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:44:40 ERROR SchemaExport:457 - user lacks privilege or object not found: UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:44:40 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom22','prenéom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:44:40 ERROR SchemaExport:457 - user lacks privilege or object not found: UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:45:29 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:45:29 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:45:29 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:45:29 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-22 10:45:30 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE CustomGenerator  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:45:30 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:45:30 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE CustomGenerator  OWNER TO jive
+2015-02-22 10:45:30 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.CUSTOMGENERATOR
+2015-02-22 10:45:30 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE ut_utilisateur_sequence  INCREMENT 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:45:30 ERROR SchemaExport:457 - unexpected token: 1 required: BY
+2015-02-22 10:45:30 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE ut_utilisateur_sequence  OWNER TO jive
+2015-02-22 10:45:30 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:45:30 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom2','prenom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:45:30 ERROR SchemaExport:457 - user lacks privilege or object not found: UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:45:30 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom22','prenéom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:45:30 ERROR SchemaExport:457 - user lacks privilege or object not found: UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:49:57 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:49:57 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:49:57 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:49:57 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-22 10:49:58 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE CustomGenerator  INCREMENT BY 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:49:58 ERROR SchemaExport:457 - number out of the valid range for sequence generator
+2015-02-22 10:49:58 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE CustomGenerator  OWNER TO jive
+2015-02-22 10:49:58 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.CUSTOMGENERATOR
+2015-02-22 10:49:58 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE ut_utilisateur_sequence  INCREMENT BY 1  MINVALUE 1  MAXVALUE 9223372036854775807  START 1  CACHE 1
+2015-02-22 10:49:58 ERROR SchemaExport:457 - number out of the valid range for sequence generator
+2015-02-22 10:49:58 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE ut_utilisateur_sequence  OWNER TO jive
+2015-02-22 10:49:58 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:49:58 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom2','prenom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:49:58 ERROR SchemaExport:457 - user lacks privilege or object not found: UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:49:58 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom22','prenéom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:49:58 ERROR SchemaExport:457 - user lacks privilege or object not found: UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:51:00 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:51:00 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:51:00 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:51:01 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-22 10:51:02 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE CustomGenerator  INCREMENT BY 1  MINVALUE 1  MAXVALUE 99999999 START 1  CACHE 1
+2015-02-22 10:51:02 ERROR SchemaExport:457 - unexpected token: 1 required: WITH
+2015-02-22 10:51:02 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE CustomGenerator  OWNER TO jive
+2015-02-22 10:51:02 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.CUSTOMGENERATOR
+2015-02-22 10:51:02 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE ut_utilisateur_sequence  INCREMENT BY 1  MINVALUE 1  MAXVALUE 99999999  START 1  CACHE 1
+2015-02-22 10:51:02 ERROR SchemaExport:457 - unexpected token: 1 required: WITH
+2015-02-22 10:51:02 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE ut_utilisateur_sequence  OWNER TO jive
+2015-02-22 10:51:02 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:51:02 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom2','prenom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:51:02 ERROR SchemaExport:457 - user lacks privilege or object not found: UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:51:02 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom22','prenéom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:51:02 ERROR SchemaExport:457 - user lacks privilege or object not found: UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:51:23 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:51:23 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:51:23 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:51:24 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-22 10:51:24 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE CustomGenerator  INCREMENT BY 1  MINVALUE 1  MAXVALUE 99999999 START WITH 1  CACHE 1
+2015-02-22 10:51:24 ERROR SchemaExport:457 - unexpected token: CACHE
+2015-02-22 10:51:24 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE CustomGenerator  OWNER TO jive
+2015-02-22 10:51:24 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.CUSTOMGENERATOR
+2015-02-22 10:51:24 ERROR SchemaExport:456 - HHH000388: Unsuccessful: CREATE SEQUENCE ut_utilisateur_sequence  INCREMENT BY 1  MINVALUE 1  MAXVALUE 99999999  START WITH 1  CACHE 1
+2015-02-22 10:51:24 ERROR SchemaExport:457 - unexpected token: CACHE
+2015-02-22 10:51:24 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE ut_utilisateur_sequence  OWNER TO jive
+2015-02-22 10:51:24 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:51:24 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom2','prenom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:51:24 ERROR SchemaExport:457 - user lacks privilege or object not found: UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:51:24 ERROR SchemaExport:456 - HHH000388: Unsuccessful: INSERT INTO ut_utilisateur( version,id , email, firstname, lastname, leavingdatetime, creatingdatetime, login,password,enabled) VALUES (0, nextval('ut_utilisateur_sequence'),'j2@v.com','nom22','prenéom2',LOCALTIMESTAMP,LOCALTIMESTAMP,'admin','koala',true)
+2015-02-22 10:51:24 ERROR SchemaExport:457 - user lacks privilege or object not found: UT_UTILISATEUR_SEQUENCE
+2015-02-22 10:52:09 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:52:09 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:52:09 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2015-02-22 10:52:09 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-02-22 10:52:10 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE CustomGenerator  OWNER TO jive
+2015-02-22 10:52:10 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.CUSTOMGENERATOR
+2015-02-22 10:52:10 ERROR SchemaExport:456 - HHH000388: Unsuccessful: ALTER TABLE ut_utilisateur_sequence  OWNER TO jive
+2015-02-22 10:52:10 ERROR SchemaExport:457 - user lacks privilege or object not found: PUBLIC.UT_UTILISATEUR_SEQUENCE
