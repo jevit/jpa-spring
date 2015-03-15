@@ -25,10 +25,16 @@
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
- 
+    
     <listener>
         <listener-class>
-            org.springframework.web.context.ContextLoaderListener
+           org.springframework.web.context.ContextLoaderListener
+        </listener-class>
+    </listener>
+    <!-- Quartz listener -->
+    <listener>
+        <listener-class>
+           jv.jpatpl.listener.QuartzListener
         </listener-class>
     </listener>
 </web-app>
