@@ -4,13 +4,13 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans 
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
- 	<bean id="scheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean"  lazy-init="false">
+ 	<!-- <bean id="scheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean"  lazy-init="false">
         <property name="jobFactory">
             <bean class="org.springframework.scheduling.quartz.SpringBeanJobFactory" />
         </property>
         <property name="applicationContextSchedulerContextKey">
             <value>applicationContext</value>
         </property>
-	</bean>
+	</bean> -->
 
 </beans>
