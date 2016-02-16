@@ -4,15 +4,15 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import jv.jpatpl.dao.UtilisateurDao;
-import jv.jpatpl.domain.Utilisateur;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
+
+import jv.jpatpl.dao.UtilisateurDao;
+import jv.jpatpl.domain.Utilisateur;
 
 @Service("utilisateurService")
 @Transactional
@@ -23,7 +23,6 @@ public class UtilisateurServiceImpl implements UtilisateurService {
 	private UtilisateurDao dao;
 
 	public Long saveOrUpdate(Utilisateur userDto) {
-
 		return dao.saveOrUpdate(userDto);
 	}
 
@@ -34,7 +33,6 @@ public class UtilisateurServiceImpl implements UtilisateurService {
 	@Transactional(readOnly = true)
 	public Utilisateur get(Long id) {
 		Utilisateur userEntity = dao.get(id);
-
 		return userEntity;
 	}
 

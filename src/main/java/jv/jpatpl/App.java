@@ -7,11 +7,11 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
 import jv.jpatpl.dao.UtilisateurDaoImpl;
 import jv.jpatpl.domain.Utilisateur;
 import jv.jpatpl.service.UtilisateurService;
-
-import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 /**
  * Hello world!
@@ -37,7 +37,7 @@ public class App {
 	}
 
 	public static void runSpring() {
-		FileSystemXmlApplicationContext appContext = new FileSystemXmlApplicationContext("src/main/webapp/WEB-INF/applicationContext.xml");
+		FileSystemXmlApplicationContext appContext = new FileSystemXmlApplicationContext("src/main/webapp/WEB-INF/application-context.xml");
 
 		UtilisateurService utilisateurService = (UtilisateurService) appContext.getBean("utilisateurService");
 		Utilisateur utilGet = utilisateurService.get(1L);
