@@ -1,0 +1,4 @@
+<dataset>
+	<Utilisateur id="0" lastname="Mr" firstName="Phillip" login="Webb" email="Webb"/>
+	<Utilisateur id="1" lastname="Mr" firstName="Mario" login="sd" email="Webb"/>
+</dataset>
